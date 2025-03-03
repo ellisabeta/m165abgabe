@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "67c571bc7cbfa21cfc1b321e"
+  },
+  "name": "Elizaveta Kolpashchikova",
+  "age": 17,
+  "date": {
+    "$date": "2007-08-30T00:00:00.000Z"
+  }
+}]
