@@ -6,3 +6,5 @@ Types of NoSQL Database:
 - Graph
 - Wide Column / Columnar Database
 
+ACID Properties in Database:
+- Atomicity, Consistency, Isolation, Durability
