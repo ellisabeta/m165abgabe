@@ -4,5 +4,3 @@
 db.createCollection("MusicSchool");
 db.createCollection("Teacher");
 db.createCollection("Student");
-db.createCollection("Classroom");
-db.createCollection("Instrument");
