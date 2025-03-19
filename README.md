@@ -8,3 +8,5 @@ Types of NoSQL Database:
 
 ACID Properties in Database:
 - Atomicity, Consistency, Isolation, Durability
+
+Sharded data in databases:
