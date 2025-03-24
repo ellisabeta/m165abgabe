@@ -1,7 +1,7 @@
 //use MusicSchoolDB;
 
 db.MusicSchool.insertOne({
-    id: schoolId,
+    _id: schoolId,
     name: "Adliswil Musikschule",
     teacher_id: [teacherId1, teacherId2],
     address: "Adliswil 8134, Zürich",
@@ -21,22 +21,22 @@ const instrumentId3 = new ObjectId();
 
 db.Teacher.insertMany([
     {
-        id: teacherId1,
+        _id: teacherId1,
         name: "Herr Sacha",
         email_address: "hello@gmail.com",
         days_available: [new Date("2024-03-25T00:00:00Z"), new Date("2024-03-28T00:00:00Z")],
         Classroom: {
-            id: classRoomId1,
+            _id: classRoomId1,
             classRoom_number: 205
         }
     },
     {
-        id: teacherId2,
+        _id: teacherId2,
         name: "Herr Pascal",
         email_address: "hallo@gmail.com",
         days_available: [new Date("2024-03-26T00:00:00Z"), new Date("2024-03-29T00:00:00Z")],
         Classroom: {
-            id: classRoomId2,
+            _id: classRoomId2,
             classRoom_number: 105
         }
     }
@@ -44,7 +44,7 @@ db.Teacher.insertMany([
 
 db.Student.insertMany([
     {
-        id: studentId1,
+        _id: studentId1,
         teacherId: teacherId1,
         name: "Alissa",
         age: 14,
@@ -53,12 +53,12 @@ db.Student.insertMany([
             "$date": "2007-08-30T00:00:00.000Z"
         },
         instrument: {
-            id: instrumentId1,
+            _id: instrumentId1,
             name: "Klarinette"
         }
     },
     {
-        id: studentId2,
+        _id: studentId2,
         teacherId: teacherId2,
         name: "Benjamin",
         age: 16,
@@ -67,12 +67,12 @@ db.Student.insertMany([
             "$date": "2007-08-30T00:00:00.000Z"
         },
         instrument: {
-            id: instrumentId2,
+            _id: instrumentId2,
             name: "Gitarre"
         }
     },
     {
-        id: studentId3,
+        _id: studentId3,
         teacherId: teacherId1,
         name: "Anna",
         age: 15,
@@ -81,10 +81,10 @@ db.Student.insertMany([
             "$date": "2007-08-30T00:00:00.000Z"
         },
         instrument: {
-            id: instrumentId3,
+            _id: instrumentId3,
             name: "Klavier"
         }
     }
 ]);
 
-print("Data inserted successfully!");
+print("successfully inserted data");

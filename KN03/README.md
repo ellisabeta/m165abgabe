@@ -7,3 +7,10 @@ These are screenshots to show that the commands worked and showed that the data 
 ![screenshot](./images/Student-Collection-Data.png)
 
 ### Abgabe Aufgabe B
+This is the script to delete only the collections from the db: [deleteCollections](delete-whole-collection.js)
+Thats the output when i run it in mongosh. As you can see the MusicSchoolDB is empty:
+![screenshot](./images/delete-commands-each-collection.png)
+
+Thats the output of the commands that individual entries are deleted in mongosh:
+![screenshot](./images/delete-individual-entries-commands.png)
+![screenshot](./images/student-collection-output.png)
