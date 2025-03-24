@@ -1,12 +1,5 @@
 //use MusicSchoolDB;
 
-db.MusicSchool.insertOne({
-    _id: schoolId,
-    name: "Adliswil Musikschule",
-    teacher_id: [teacherId1, teacherId2],
-    address: "Adliswil 8134, Zürich",
-});
-
 const schoolId = new ObjectId();
 const teacherId1 = new ObjectId();
 const teacherId2 = new ObjectId();
@@ -18,6 +11,13 @@ const classRoomId2 = new ObjectId();
 const instrumentId1 = new ObjectId();
 const instrumentId2 = new ObjectId();
 const instrumentId3 = new ObjectId();
+
+db.MusicSchool.insertOne({
+    _id: schoolId,
+    name: "Adliswil Musikschule",
+    teacher_id: [teacherId1, teacherId2],
+    address: "Adliswil 8134, Zürich",
+});
 
 db.Teacher.insertMany([
     {
@@ -50,7 +50,7 @@ db.Student.insertMany([
         age: 14,
         email_address: "student1@gmail.com",
         lesson_date: {
-            "$date": "2007-08-30T00:00:00.000Z"
+            "$date": "2024-03-25T00:00:00Z"
         },
         instrument: {
             _id: instrumentId1,
@@ -64,7 +64,7 @@ db.Student.insertMany([
         age: 16,
         email_address: "student2@gmail.com",
         lesson_date: {
-            "$date": "2007-08-30T00:00:00.000Z"
+            "$date": "2024-03-26T00:00:00Z"
         },
         instrument: {
             _id: instrumentId2,
@@ -78,7 +78,7 @@ db.Student.insertMany([
         age: 15,
         email_address: "student3@gmail.com",
         lesson_date: {
-            "$date": "2007-08-30T00:00:00.000Z"
+            "$date": "2024-03-28T00:00:00Z"
         },
         instrument: {
             _id: instrumentId3,

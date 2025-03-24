@@ -7,7 +7,7 @@ These are screenshots to show that the commands worked and showed that the data 
 ![screenshot](./images/Student-Collection-Data.png)
 
 ### Abgabe Aufgabe B
-This is the script to delete only the collections from the db: [deleteCollections](delete-whole-collection.js)
+This is the script to **delete** only the collections from the db: [deleteCollections](delete-whole-collection.js)
 Thats the output when i run it in mongosh. As you can see the MusicSchoolDB is empty:
 ![screenshot](./images/delete-commands-each-collection.png)
 
@@ -16,3 +16,8 @@ Thats the output of the commands that individual entries are deleted in mongosh:
 ![screenshot](./images/student-collection-output.png)
 
 ### Abgabe Aufgabe C
+Here is the script to **query** through the database collections: [script](select-data-from-collection.js)
+Thats the output that when i do .find() commands it shows the entries from the db:
+![screenshot](./images/quering-through-the-collections.png)
+
+### Abgabe Aufgabe D
