@@ -14,3 +14,5 @@ Thats the output when i run it in mongosh. As you can see the MusicSchoolDB is e
 Thats the output of the commands that individual entries are deleted in mongosh:
 ![screenshot](./images/delete-individual-entries-commands.png)
 ![screenshot](./images/student-collection-output.png)
+
+### Abgabe Aufgabe C
