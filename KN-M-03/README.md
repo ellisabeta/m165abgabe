@@ -21,3 +21,7 @@ Thats the output that when i do .find() commands it shows the entries from the d
 ![screenshot](./images/quering-through-the-collections.png)
 
 ### Abgabe Aufgabe D
+Here is the script to **update** the collections: [script](update-queries.js)
+Thats the output as in commands and the picture:
+![screenshot](./images/commands-to-update.png)
+![screenshot](./images/updatedSchool.png)
