@@ -1,5 +1,9 @@
 ## m165abgabe
 
+### Kompetenzen  
+For the tasks I am using MongoDB with MongoDBCompass, but it is also possible to connect through the terminal with the following command:  
+``mongosh mongodb://admin:password@IPAdressOfInstance/?authSource=admin&readPreference=primary&ssl=false``  
+
 Types of NoSQL Database:  
 - Document-Based Database
 - Key-value stores / Time Series Database
