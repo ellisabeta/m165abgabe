@@ -54,3 +54,10 @@ Using this command i restored the DB through the terminal:
 ![screenshot](./images/restoredMusicSchoolDB.png)
 
 ### Abgabe Aufgabe C  
+Difference between Replication and Partition (Shards):  
+**Replication** means having one server or a db and then one more server or db which is a duplication of the first one. Because that means if the first one collapses or goes down, the second one that was there as a backup will be used. So the same data is stored in both versions.
+
+**Partition (sharding)** means splitting the data. It's data being split into smaller pieces, which is 
+called **shards** across different servers. The data is different in all servers so there is no second duplicated object in sharding that contains the same data, it's all different.  
+
+For the company, if Accenture uses Replication, then it's a better choice to choose Partition, because the data increases, which would be better to be stored as shards so the Partitioning way. Data will be scaled horizontally. 
