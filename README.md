@@ -20,8 +20,11 @@ Types of NoSQL Database:
 
 For Example banks use an ACID database to store customer transactions because data integrity is the top priority.
 
-**Sharded data in databases**:
+**Sharded data in databases**:  
+**Partition (sharding)** means splitting the data. It's data being split into smaller pieces, which is 
+called **shards** across different servers. The data is different in all servers so there is no second duplicated object in sharding that contains the same data, it's all different.  
 
+**Replication** means having one server or a db and then one more server or db which is a duplication of the first one. Because that means if the first one collapses or goes down, the second one that was there as a backup will be used. So the same data is stored in both versions.  
 
 **Graph databases**:  
 It originates from the graph theory. There are edges = relationships. Nodes = Vertices/Eckpunkte which are usually the entities. Nodes and Edges create connections in the database. It allows more complex relationship queries than a relational database.
